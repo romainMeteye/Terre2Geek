@@ -86,6 +86,37 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header {
+  background-color: crimson;
+}
+nav {
+  background-color: dodgerblue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+nav>section {
+  background-color: darkorange;
+  width: 30%;
+}
+nav>section>h4 {
+  margin: 0;
+  text-align: center;
+}
+#logo {
+  background-color: darkgreen;
+  width: 10vh;
+  height: 50%;
+  margin: 20px 0px 0px 20px;
+  text-align: center;
+}
+nav>div {
+  background-color: deeppink;
+  width: 70%;
+  text-align: center;
+  
+}
+
 
 /* ==========================================================================
    Helper classes
