@@ -89,20 +89,24 @@ textarea {
 header {
   background-color: crimson;
 }
+
 nav {
   background-color: dodgerblue;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
+
 nav>section {
   background-color: darkorange;
   width: 30%;
 }
+
 nav>section>h4 {
   margin: 0;
   text-align: center;
 }
+
 #logo {
   background-color: darkgreen;
   width: 10vh;
@@ -110,13 +114,70 @@ nav>section>h4 {
   margin: 20px 0px 0px 20px;
   text-align: center;
 }
+
 nav>div {
   background-color: deeppink;
   width: 70%;
   text-align: center;
-  
 }
 
+main {
+  background-color: fuchsia;
+}
+
+main>h2 {
+  background-color: saddlebrown;
+  text-align: center;
+}
+
+article {
+  background-color: red;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.toparticle {
+  background-color: khaki;
+  width: 70%;
+  display: flex;
+  text-align: center;
+}
+
+.imgarticle {
+  background-color: lawngreen;
+  width: 30%;
+  height: 40%;
+  text-align: center;
+  display: flex;
+}
+
+.botarticle {
+  background-color: purple;
+  width: 100%;
+  display: flex;
+}
+
+.toparticle>img {
+  background-color: blue;
+  width: 25%;
+  height: 50%;
+}
+
+.toparticle>h3 {
+  background-color: yellow;
+  margin-left: 14%;
+}
+
+.botarticle>p {
+  margin: 3% 10% 3% 10%;
+}
+
+main>h3 {
+  background-color: cyan;
+  text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
