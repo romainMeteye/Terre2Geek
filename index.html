@@ -3,19 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
+  <title>Terre de Geek</title>
+  <meta name="description" content="Terre de Geek">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -25,79 +22,79 @@
 <body>
 
  <!--######## HEADER ######## -->
-<header>
+<header class="flex fullcenter mainBg">
+  <img src="#" alt="#" id="logo">
+  <h2 class="titlesite secondaryColor">Terre2Qeek</h2>
+</header>
 
  <!--######## NAV ######## -->
-  <nav>
-    <section>
-      <img src="img/logo.png" alt="#" id="logo">
-      <h4>Terre2Qeek</h4>
-    </section>
-    <div>
-      <a href="">Lien 1</a>
-      <a href="">Lien 2</a>
-      <a href="">Lien 3</a>
-      <button>resrh</button>
-    </div>
+  <nav class="flex">
+      <a href="index.html" class="menu">Accueil</a>
+      <a href="" class="menu">Nos produits</a>
+      <a href="" class="menu">Prestation</a>
+      <a href="" class="menu">Nous contacter</a>
+      <button><i class="fas fa-search fa-lg"></i></button>
   </nav>
 </header>
 
  <!--######## MAIN ######## -->
-<main>
-  <h2>ARTICLES DU MOMENT</h2>
+<main class="flex fullcenter secondaryBg">
+  <h2 class="maintitle">ARTICLES DU MOMENT</h2>
   
-  <article>
-    <section class="toparticle">
+  <article class="mainarticle mainBg flex">
+    <section class="mainone">
+      <img src="img/new.png" alt="#" class="new">
+      <h3 class="titre">Logitech G Pro Souris Gamer sans fil</h3>
+    </section class="deux">
+    <div>
+      <img src="img/souris.jpg" alt="#" class="imagearticle">
+    </div>
+    <section>
+      <p>140€</p>
+      <p>Capteur Gaming HERO 25K, 25 600 PPP, RVB, Ultra-Léger...<br />En savoir plus !</p>
+      <!--<p>Capteur Gaming HERO 25K, 25 600 PPP, RVB, Ultra-Léger, 4 à 8 Boutons Programmables, Batterie Longue Durée, POWERPLAY-compatible, PC - Noire</p> -->
+    </section>
+  </article>
+
+  <article class="mainarticle mainBg">
+    <section>
       <img src="#" alt="#">
       <h3>Nom de l'article</h3>
     </section>
     <div class="imgarticle">
       <img src="#" alt="#">
     </div>
-    <section class="botarticle">
+    <section>
       <p>prix</p>
       <p>Description du produit</p>
     </section>
   </article>
 
-  <article>
-    <section class="toparticle">
+  <article class="mainarticle mainBg">
+    <section>
       <img src="#" alt="#">
       <h3>Nom de l'article</h3>
     </section>
     <div class="imgarticle">
       <img src="#" alt="#">
     </div>
-    <section class="botarticle">
+    <section>
       <p>prix</p>
       <p>Description du produit</p>
     </section>
   </article>
 
-  <article>
-    <section class="toparticle">
-      <img src="#" alt="#">
-      <h3>Nom de l'article</h3>
-    </section>
-    <div class="imgarticle">
-      <img src="#" alt="#">
-    </div>
-    <section class="botarticle">
-      <p>prix</p>
-      <p>Description du produit</p>
-    </section>
-  </article>
-
-  <h3 onclick="#">Voir tous nos articles</h3>
+  <a href="products.html" class="btitle">Voir tous nos articles !</a>
 </main>
  <!--######## FOOTER ######## -->
-<footer>
+<footer class="mainBg">
   <section>
+    <p>Copyright</p>
     <div>
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Linkedin</a>
-      <a href="#">Instagram</a>
+      <a href="https://fr-fr.facebook.com/"><img src="img/facebook.png" alt="" class="reseaux"></a>
+      <a href="https://twitter.com/"><img src="img/twitter.png" alt="" class="reseaux"></a>
+      <a href="https://fr.linkedin.com/"><img src="img/linkedin.png" alt="" class="reseaux"></a>
+      <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="" class="reseaux"></a>
     </div>
   </section>
 </footer>
