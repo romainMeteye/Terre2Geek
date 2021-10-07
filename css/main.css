@@ -91,6 +91,7 @@ textarea {
   padding: 0;
   font-size: 0.8rem;
   font-family: 'Roboto', sans-serif;
+  color: #FFF5EC;
 }
 a {
   text-decoration: none;
@@ -104,8 +105,9 @@ img {
   width: 100%;
 }
 #logo {
-  width: 15%;
+  width: 25%;
   height: 50%;
+  margin-right: 5vw;
 }
 h1, h2, h3, h4, h5, h6, .menu, .btitle {
   font-family: 'Bebas Neue', cursive;
@@ -124,9 +126,6 @@ h1, h2, h3, h4, h5, h6, .menu, .btitle {
 .mainColor {
   color: #FFF5EC;
 }
-p {
-  color: #FFF5EC;
-}
 .secondaryColor {
   color: #9BF4F7;
 }
@@ -142,6 +141,10 @@ p {
   width: 40%;
   height: 30%;
   margin: 1vh 0vh 1vh 0vh;
+}
+.research {
+  width: 20px;
+  height: 50%;
 }
 
 header {
@@ -162,7 +165,7 @@ nav {
 main {
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh; /*Très probablement à modifier*/
+  height: 110vh; /*Très probablement à modifier*/
 }
 .maintitle {
   font-size: 1.4rem;
@@ -173,14 +176,19 @@ main {
 }
 .mainarticle {
   width: 100%;
-  height: 25vh; /*Très probablement à modifier*/
+  height: 30vh; /*Très probablement à modifier*/
   margin-bottom: 1vh;
   justify-content: space-around;
 }
 .imagearticle {
   width: 19vw;
   height: 15vh;
-  margin-top: 1vh;
+  margin-top: 2vh;
+}
+.imagetablet {
+  width: 25vw;
+  height: 15vh;
+  margin-top: 2vh;
 }
 .btitle {
   font-size: 1.2rem;
@@ -191,9 +199,22 @@ footer {
 }
 .mainone {
   width: 60vw;
+  height: 60%;
+}
+.mainend {
+  flex-direction: column;
+}
+.description {
+  border-top: solid;
 }
 .titre {
-  font-size: 1rem; 
+  font-size: 1.3rem; 
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+.moreText {
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 /* ==========================================================================
    Helper classes
