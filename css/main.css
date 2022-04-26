@@ -386,6 +386,7 @@ footer {
   .inputs {
     height: 6vh;
     margin: 1px 0px 1px 0px;
+    color: #000;
   }
   .autreInput {
     height: 8vh;
