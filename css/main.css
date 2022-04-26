@@ -102,6 +102,9 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+.row {
+  flex-direction: row;
+}
 img {
   width: 100%;
 }
@@ -133,6 +136,9 @@ h1, h2, h3, h4, h5, h6, .menu, .btitle {
 }
 .secondaryColor {
   color: #9BF4F7;
+}
+.textColor {
+  color: #4E3D42;
 }
 .reseaux {
   width: 5vh;
@@ -212,6 +218,7 @@ footer {
 }
 .description {
   border-top: solid;
+  text-align: center;
 }
 .titre {
   font-size: 1.3rem; 
@@ -221,6 +228,41 @@ footer {
 .moreText {
   font-weight: bold;
   font-size: 0.9rem;
+}
+/* Pour la page contact */
+.mainContact {
+  height: 65vh;
+  align-items: center;
+}
+.contactTitle {
+  padding-top: 1px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.autreInput {
+  width: 15vw;
+  margin-top: 1px;
+}
+.contactFont {
+  font-size: 1.4rem;
+}
+.inputs {
+  width: 50vw;
+}
+.objectTitle {
+  font-size: 1rem;
+}
+h5 {
+  margin-left: 1vw;
+  margin-right: 2vw;
+  justify-content: space-around;
+}
+.autre {
+  margin-right: 10vw;
+}
+.sendContact {
+  width: 20vw;
+  height: 3vh;
 }
 /* ######## FOOTER ######## */
 footer {
@@ -263,9 +305,22 @@ footer {
   .research {
     width: 40px;
   }
+  main {
+    flex-direction: column;
+    height: 175vh;
+  }
+  .menu {
+    font-size: 1rem;
+  }
+  nav {
+    height: 8vh;
+  }
+  .sendContact {
+    height: 5vh;
+  }
 }
 /* ############# MEDIA DESKTOP ############# */
-@media (min-width: 1000px) {
+@media (min-width: 1025px) {
   nav {
     height: 10vh;
   }
@@ -283,6 +338,9 @@ footer {
   main {
     height: 140vh;
   }
+  .menu {
+    font-size: 1.5rem;
+  }
   .newarticle {
     flex-direction: row;
     justify-content: space-around;
@@ -292,7 +350,7 @@ footer {
     height: 50vh;
   }
   .titre {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .mainone {
     width: 45%;
@@ -314,6 +372,26 @@ footer {
   }
   .part2footer {
     width: 20%;
+  }
+  #logofoot {
+    width: 15vw;
+    height: 10vh;
+  }
+  .mainContact {
+    height: 95vh;
+  }
+  .contactTitle {
+    font-size: 1.6rem;
+  }
+  .inputs {
+    height: 6vh;
+    margin: 1px 0px 1px 0px;
+  }
+  .autreInput {
+    height: 8vh;
+  }
+  .contactFont {
+    font-size: 1.9rem;
   }
 }
 
